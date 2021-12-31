@@ -19,7 +19,6 @@
 
 .main-menu a {
     color: #00285F;
-    padding: 0px;
 
 }
 
@@ -39,21 +38,20 @@
 
 @media (min-width: 768px) {
 
+    .main-menu {
+        display: flex;
+        font-size: 18px;
+        width: 320px;
+        justify-content: right;
+        padding-right: 10px;
+    }
+
     .main-menu a {
-        padding-right: 20px;
-    }
-}
-@media (min-width: 992px) {
+        padding: 20px;
 
-    .main-menu {
-        padding-right: 160px;
     }
 }
 
-@media (min-width: 1200px) {
 
-    .main-menu {
-        padding-right: 500px;
-    }
-    
-}
+
+

@@ -25,7 +25,7 @@ const Home = () => {
           <div className="home-btn-container">
             <div>
               <Link to="/cars">
-                <Button />
+                <Button text="ver catálogo"/>
               </Link>
             </div>
           </div>

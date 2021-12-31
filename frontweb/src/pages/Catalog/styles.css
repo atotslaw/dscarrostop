@@ -1,0 +1,116 @@
+.catalog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    width: 300px;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    margin: 20px 5px 0px 5px;
+    background: #EDEDED;
+}
+
+.search-text-container input {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-btn-container button {
+    width: 77px;
+    padding: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+@media (min-width: 576px) {
+
+    .search-container {
+        width: 536px;
+        height: 100px;
+
+    }
+    
+    .search-text-container input {
+        width: 300px;
+    }
+
+    .search-btn-container button {
+        width: 160px;
+    }
+
+    .car-card-list:nth-child(2n+1) { 
+        margin-left: -24px;
+        margin-right: -17px;
+    }
+
+    .card-container {
+        width: 536px;
+        border-radius: 10px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .search-container {
+        width: 720px;
+        height: 123px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .search-text-container input {
+        width: 506px;
+    }
+    .search-btn-container button {
+        width: 174px;
+    }
+
+    .card-container {
+        width: 728px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .search-container {
+        width: 952px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .search-text-container input {
+        width: 548px;
+    }
+
+    .card-container {
+        width: 950px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .search-container {
+        width: 971px;
+    }
+    
+    .search-text-container input {
+        width: 584px;
+    }
+
+    .card-container {
+        width: 979px;
+    }
+
+}
